@@ -11,7 +11,7 @@ const color = prompt('Qual è il tuo colore preferito?');
 console.log('colore', color);
 
 //Password generator//
-const password = nome + surname + color + 130
+const password = nome + surname + color + '130'
 console.log('Password Generata:', password);
 
 document.getElementById('psw').innerHTML = password;
